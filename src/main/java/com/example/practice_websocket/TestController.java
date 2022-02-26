@@ -12,6 +12,7 @@ public class TestController {
     public String test(HttpServletRequest req){
         String ip = req.getHeader("X-Forwarded-For");
         if (ip == null) ip = req.getRemoteAddr();
+
         return ip;
     }
 }
