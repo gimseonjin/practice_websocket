@@ -1,4 +1,4 @@
-package com.example.practice_websocket.model;
+package com.example.practice_websocket.tutorial.model;
 
 public class HelloMessage {
 
