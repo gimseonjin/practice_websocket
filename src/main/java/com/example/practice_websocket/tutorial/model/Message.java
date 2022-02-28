@@ -9,5 +9,5 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter @Setter
 public class Message {
-    private String message;
+    private String content;
 }
