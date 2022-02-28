@@ -1,7 +1,5 @@
 package com.example.practice_websocket.tutorial.controller;
 
-import com.example.practice_websocket.tutorial.model.Greeting;
-import com.example.practice_websocket.tutorial.model.HelloMessage;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
