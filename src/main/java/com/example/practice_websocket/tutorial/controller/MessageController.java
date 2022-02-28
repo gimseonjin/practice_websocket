@@ -14,7 +14,7 @@ public class MessageController {
     @SendTo("/topic/message")
     public Message greeting(Message message) throws Exception {
         Thread.sleep(1000); // simulated delay
-        return new Message(HtmlUtils.htmlEscape(message.getContent()));
+        return new Message(HtmlUtils.htmlEscape(message.getContent()),HtmlUtils.htmlEscape(message.getUuid()));
     }
 
 }
